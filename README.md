@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Slack 2.0 Using NextJS, TailwindCSS, Material-UI, and Firebase
 
-## Getting Started
+> This is a Slack clone using NextJS, TailwindCSS, Material-UI, and Firebase. This project is a work in progress and is not yet complete. This is made from scratch and the code isnt copied from any other source. This project is made for learning purposes and is not intended to be used in production. This project is made by [Muhammad Bilal Mohib](https://github.com/bilalmohib)
 
-First, run the development server:
+## Table of Contents
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Course](#course)
 
+## Features
+- Custom Authentication System
+- Google Authentication
+- Real-time chat
+- Real-time presence
+- Real-time notifications
+- Real-time typing indicator
+- Real-time read receipts
+- Real-time online status
+- Real-time user search
+- Real-time user profile updates
+- Real-time channel search
+- Real-time channel creation
+- Real-time channel updates
+- Real-time channel deletion
+- Real-time channel members
+- Real-time channel messages
+- Real-time direct messages
+- Real-time direct message creation
+- Real-time direct message updates
+- Real-time direct message deletion
+- Real-time direct message members
+- Real-time direct message messages
+- Real-time user typing indicator
+
+## Technologies
+- [NextJS](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Material-UI](https://material-ui.com/)
+- [Firebase](https://firebase.google.com/)
+- [Firestore](https://firebase.google.com/docs/firestore)
+- Custom Authentication System
+- [Google Authentication](https://www.npmjs.com/package/react-oauth-google)
+- [Firebase Cloud Firestore](https://firebase.google.com/docs/firestore)
+- [Vercel (Deployment)](https://vercel.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+
+## Installation
+1. Clone the repository
+2. Run `npm install`
+3. Create a `.env.local` file in the root directory
+4. Add the following environment variables to the `.env.local` file
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+NEXT_PUBLIC_FIREBASE_API_KEY=""
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=""
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=""
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=""
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=""
+NEXT_PUBLIC_FIREBASE_APP_ID=""
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=""
+
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=""
+NEXT_PUBLIC_GOOGLE_CLIENT_SECRET=""
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+1. Run `npm run dev`
+2. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## License
+This project is open source and available under the [MIT License](LICENSE).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Course
+The couse is being uploaded daily on [Slack Clone Using NextJS, Tailwind css,materialui and firebase](https://www.youtube.com/playlist?list=PLuXgTmlciRkHEX3HESHPvTKOzfReXwlme)
